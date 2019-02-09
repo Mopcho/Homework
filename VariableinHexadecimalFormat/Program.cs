@@ -4,15 +4,16 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace CurrDateTime
+namespace VariableinHexadecimalFormat
 {
     class Program
     {
         static void Main(string[] args)
         {
-            var a = DateTime.Now;
+            int a = 0xFE;
             Console.WriteLine(a);
             Console.ReadLine();
+            
         }
     }
 }

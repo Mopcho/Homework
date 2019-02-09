@@ -4,14 +4,19 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace CurrDateTime
+namespace PrinttheASCIITable
 {
     class Program
     {
         static void Main(string[] args)
         {
-            var a = DateTime.Now;
-            Console.WriteLine(a);
+            char a;
+            for (int i=33;i<126;i++)
+            {
+                a = (char)i;
+                Console.Write(a);
+            }
+            Console.WriteLine();
             Console.ReadLine();
         }
     }

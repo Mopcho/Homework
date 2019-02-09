@@ -11,7 +11,10 @@ namespace SumofNumb
         static void Main(string[] args)
         {
             double x = double.Parse(Console.ReadLine());
-            Console.WriteLine(x);
+            double y = double.Parse(Console.ReadLine());
+            double sum = x + y;
+            Console.WriteLine(sum);
+            Console.ReadLine();
         }
     }
 }

@@ -4,13 +4,13 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace CurrDateTime
+namespace UnicodeCharacter
 {
     class Program
     {
         static void Main(string[] args)
         {
-            var a = DateTime.Now;
+            char a = '\u002A';
             Console.WriteLine(a);
             Console.ReadLine();
         }

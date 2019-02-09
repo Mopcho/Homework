@@ -12,6 +12,7 @@ namespace SquareRoot
         {
             int x = 12345;
             Console.WriteLine(Math.Sqrt(x));
+            Console.ReadLine();
         }
     }
 }

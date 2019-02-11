@@ -13,7 +13,7 @@ namespace PointCircleRectangle
             double x = double.Parse(Console.ReadLine());
             double y = double.Parse(Console.ReadLine());
             double pointCircle = Math.Sqrt(Math.Pow((x - 1), 2) + Math.Pow((y - 1), 2));
-            double pointRectangle = Math.Sqrt(Math.Pow((x - 1), 2) + Math.Pow((y +1), 2));
+            bool checkRectangle = ((x >= -1 && x <= 5) && (y <= 1 && y >= -1));
             if (pointCircle<=1.5)
             {
                 Console.WriteLine("Inside Circle ");
@@ -23,7 +23,7 @@ namespace PointCircleRectangle
                 Console.WriteLine("Outside Circle");
             }
             
-            if (x<=2 && y<=6)
+            if (checkRectangle)
             {
                 Console.WriteLine("Inside Rectangle");
 

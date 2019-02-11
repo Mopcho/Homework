@@ -71,6 +71,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Trapezoid", "Trapezoid\Trap
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PointCircleRectangle", "PointCircleRectangle\PointCircleRectangle.csproj", "{BF79FA82-8D60-482A-ADF2-ED21270684B1}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Circle", "Circle\Circle.csproj", "{EA80DEE2-6E91-4E41-B263-92E5DC2D8CE1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FormatingNumbers", "FormatingNumbers\FormatingNumbers.csproj", "{EB7807D4-95C8-4A56-89EE-6018A0261E88}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -213,6 +217,14 @@ Global
 		{BF79FA82-8D60-482A-ADF2-ED21270684B1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BF79FA82-8D60-482A-ADF2-ED21270684B1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BF79FA82-8D60-482A-ADF2-ED21270684B1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EA80DEE2-6E91-4E41-B263-92E5DC2D8CE1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EA80DEE2-6E91-4E41-B263-92E5DC2D8CE1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EA80DEE2-6E91-4E41-B263-92E5DC2D8CE1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EA80DEE2-6E91-4E41-B263-92E5DC2D8CE1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EB7807D4-95C8-4A56-89EE-6018A0261E88}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EB7807D4-95C8-4A56-89EE-6018A0261E88}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EB7807D4-95C8-4A56-89EE-6018A0261E88}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EB7807D4-95C8-4A56-89EE-6018A0261E88}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

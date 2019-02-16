@@ -103,6 +103,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SortThreeNumbers", "SortThr
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DigitAsWord", "DigitAsWord\DigitAsWord.csproj", "{865225AF-C05C-4F51-A8B6-ABF234FB98C6}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FizzBuzz", "FizzBuzz\FizzBuzz.csproj", "{EFACB62F-78F9-4F2B-AC7A-AD15BC4301C9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IntDoubleString", "IntDoubleString\IntDoubleString.csproj", "{57CCCD08-C3D2-49ED-A773-9B0614A3B3E6}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -309,6 +313,14 @@ Global
 		{865225AF-C05C-4F51-A8B6-ABF234FB98C6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{865225AF-C05C-4F51-A8B6-ABF234FB98C6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{865225AF-C05C-4F51-A8B6-ABF234FB98C6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EFACB62F-78F9-4F2B-AC7A-AD15BC4301C9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EFACB62F-78F9-4F2B-AC7A-AD15BC4301C9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EFACB62F-78F9-4F2B-AC7A-AD15BC4301C9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EFACB62F-78F9-4F2B-AC7A-AD15BC4301C9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{57CCCD08-C3D2-49ED-A773-9B0614A3B3E6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{57CCCD08-C3D2-49ED-A773-9B0614A3B3E6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{57CCCD08-C3D2-49ED-A773-9B0614A3B3E6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{57CCCD08-C3D2-49ED-A773-9B0614A3B3E6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

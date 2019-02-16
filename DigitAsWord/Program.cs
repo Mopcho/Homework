@@ -44,8 +44,6 @@ namespace DigitAsWord
                     case '9':
                          firstLetterStr = "ninety";
                         break;
-
-
                 }
                 switch (firstLetter[1])
                 {
@@ -76,11 +74,8 @@ namespace DigitAsWord
                     case '9':
                         secondLetterStr = "nine";
                         break;
-
-
                 }
-                Console.WriteLine(firstLetterStr + secondLetterStr);
-                
+                Console.WriteLine(firstLetterStr + secondLetterStr); 
             }
             else if (n<=20 && n>10)
             {
@@ -120,7 +115,6 @@ namespace DigitAsWord
                         Console.WriteLine("twenty");
                         break;
                 }
-
             }
             else if (n<10 && n>0)
             {
@@ -153,8 +147,6 @@ namespace DigitAsWord
                     case 9:
                         Console.WriteLine("nine");
                         break;
-                  
-
                 }
             }
             else if (firstLetter[1]=='0' && n>20 && n<100)
@@ -182,7 +174,6 @@ namespace DigitAsWord
                     case '9':
                         Console.WriteLine(" ninety");
                         break;
-
                 }
             }
             else

@@ -111,6 +111,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MinMaxSumAvg", "MinMaxSumAv
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PrintADeck", "PrintADeck\PrintADeck.csproj", "{622EEB38-80B8-4F7F-AE9A-2C7CE5D40DF0}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Calculate", "Calculate\Calculate.csproj", "{FD5CF457-CC1D-4B80-90D8-11F2F0A15E30}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -333,6 +335,10 @@ Global
 		{622EEB38-80B8-4F7F-AE9A-2C7CE5D40DF0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{622EEB38-80B8-4F7F-AE9A-2C7CE5D40DF0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{622EEB38-80B8-4F7F-AE9A-2C7CE5D40DF0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FD5CF457-CC1D-4B80-90D8-11F2F0A15E30}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FD5CF457-CC1D-4B80-90D8-11F2F0A15E30}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FD5CF457-CC1D-4B80-90D8-11F2F0A15E30}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FD5CF457-CC1D-4B80-90D8-11F2F0A15E30}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

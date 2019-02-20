@@ -15,68 +15,38 @@ namespace PrintADeck
             string clubs = "club";
             string hearth = "hearth";
             string diamonds = "diamonds";
+            string aCard = "A";
+            int counter = 2;
             switch (card[0])
             {
                 case 'A':
-                    for (int i = 0; i < 11; i++)
+                    for (int i = 2; i < 11; i++)
                     {
-                        for (int a = 0; a < 4; a++)
-                        {
-                            switch (a)
-                            {
-                                case 1:
-                                    Console.Write("{0} of {1}", a, spades);
-                                    break;
-                                case 2:
-                                    Console.Write("{0} of {1}", a, clubs);
-                                    break;
-                                case 3:
-                                    Console.Write("{0} of {1}", a, hearth);
-                                    break;
-                                case 4:
-                                    Console.Write("{0} of {1}", a, diamonds);
-                                    break;
-
-
-                            }
-                            Console.WriteLine();
-
-                        }
+                                    Console.Write(" {0} of {1} ", i, spades);
+                                    Console.Write(" {0} of {1} ", i, clubs);
+                                    Console.Write(" {0} of {1} ", i, hearth);
+                                    Console.Write(" {0} of {1} ", i, diamonds);
+                                    Console.WriteLine();
                     }
+                    Console.Write(" {0} of {1} ", aCard, spades);
+                    Console.Write(" {0} of {1} ", aCard, clubs);
+                    Console.Write(" {0} of {1} ", aCard, hearth);
+                    Console.Write(" {0} of {1} ", aCard, diamonds);
+                    Console.WriteLine();
                     break;
                 default:
                     char[] charArr = card.ToCharArray();
-
-
                     int cardNum = int.Parse(charArr[0].ToString());
-                    for (int i = 0; i < cardNum; i++)
+                    Console.WriteLine(cardNum);
+                    for (int i = 2; i < cardNum; i++)
                     {
-                        for (int a = 0; a < 4; a++)
-                        {
-                            switch (a)
-                            {
-                                case 1:
-                                    Console.Write("{0} of {1}", a, spades);
-                                    break;
-                                case 2:
-                                    Console.Write("{0} of {1}", a, clubs);
-                                    break;
-                                case 3:
-                                    Console.Write("{0} of {1}", a, hearth);
-                                    break;
-                                case 4:
-                                    Console.Write("{0} of {1}", a, diamonds);
-                                    break;
-
-
-                            }
-                        }
+                                    Console.Write(" {0} of {1} ", i, spades);
+                                    Console.Write(" {0} of {1} ", i, clubs);
+                                    Console.Write(" {0} of {1} ", i, hearth);
+                                    Console.Write(" {0} of {1} ", i, diamonds);
+                                    Console.WriteLine();   
                     }
                     break;
-
-
-
-
             }
         }
     }

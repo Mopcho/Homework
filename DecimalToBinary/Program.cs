@@ -13,24 +13,47 @@ namespace DecimalToBinary
             int dec = int.Parse(Console.ReadLine());
             int fakeDec = dec;
             int counter = 0;
+            string holder = "";
+
             for (int i=0;fakeDec>=1;i++,counter++)
             {
                 int num = fakeDec % 2;
-                Console.Write("{0} ", num);
+
                 fakeDec = fakeDec / 2;
 
             }
-            int secDec = dec;
-            for (int c = 0; c < counter-1; c++) {
-                dec = dec / 2;
-                Console.WriteLine(dec);
-                    }
-            for (int a=0;dec<secDec;a++)
+
+
+            string[] charArr = new string[counter];
+           
+
+            for (int a = 0; dec>=1; a++)
             {
-                int sum1 = dec % 2;
-                Console.Write(sum1);
-                dec = dec * 2;
+                int num2 = dec % 2;
+                charArr[a] =num2.ToString();
+                dec = dec / 2;
             }
+
+
+            string[] charArr2 = new string[counter];
+            int e = 0;
+
+
+
+             for (int d=counter-1;e<counter;d--,e++)
+            {
+                
+                charArr2[d] = charArr[e];
+            }
+
+
+
+            for (int c=0;c<counter;c++)
+            {
+                Console.Write("{0} ", charArr2[c]);
+            }
+           
+            
         }
     }
 }

@@ -127,6 +127,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HexToDecimal", "HexToDecima
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GCD", "GCD\GCD.csproj", "{1C8A603A-934E-4126-B611-D163112197D4}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AllocateArray", "AllocateArray\AllocateArray.csproj", "{A471E2E6-A781-490E-B3CC-78870457F96C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -381,6 +383,10 @@ Global
 		{1C8A603A-934E-4126-B611-D163112197D4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1C8A603A-934E-4126-B611-D163112197D4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1C8A603A-934E-4126-B611-D163112197D4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A471E2E6-A781-490E-B3CC-78870457F96C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A471E2E6-A781-490E-B3CC-78870457F96C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A471E2E6-A781-490E-B3CC-78870457F96C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A471E2E6-A781-490E-B3CC-78870457F96C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

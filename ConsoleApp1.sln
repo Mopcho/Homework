@@ -131,6 +131,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AllocateArray", "AllocateAr
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ComapreArrays", "ComapreArrays\ComapreArrays.csproj", "{90E73846-3ADB-4CEC-94C4-A3E9831E7FDB}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CompareCharArrays", "CompareCharArrays\CompareCharArrays.csproj", "{B0FAA2A3-59BC-4305-AE5A-9F1232C43295}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -393,6 +395,10 @@ Global
 		{90E73846-3ADB-4CEC-94C4-A3E9831E7FDB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{90E73846-3ADB-4CEC-94C4-A3E9831E7FDB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{90E73846-3ADB-4CEC-94C4-A3E9831E7FDB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B0FAA2A3-59BC-4305-AE5A-9F1232C43295}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B0FAA2A3-59BC-4305-AE5A-9F1232C43295}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B0FAA2A3-59BC-4305-AE5A-9F1232C43295}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B0FAA2A3-59BC-4305-AE5A-9F1232C43295}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

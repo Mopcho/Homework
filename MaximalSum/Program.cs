@@ -20,17 +20,25 @@ namespace MaximalSum
             int counter = 0;
             int sum = 0;
             int indexCounter = 0;
-            int[] sumArr = new int[n];
+            int[] sumArr = new int[1025];
             for (int i=0;i<n;i++)
             {
-                for (int a=counter;a<n;a++,indexCounter++)
+              
+                for (int a=0;a<n;a++)
                 {
-                    sum = sum + Arr[indexCounter];
+                    
+                    for (int c=holderN-1; c>=a ; c--)
+                    {
+                        Console.WriteLine(Arr[c]);
+                        sum = sum + Arr[c];
+                    }
+                    sumArr[a] = sum;
+                    sum = 0;
                 }
-                sumArr[i] = sum;
-                counter++;
-                indexCounter = counter;
-                sum = 0;
+               
+               
+              
+                
             }
             int biggest = -1000;
             for (int i=0;i<n;i++)

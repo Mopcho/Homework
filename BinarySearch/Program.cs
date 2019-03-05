@@ -17,9 +17,9 @@ namespace BinarySearch
             {
                 Arr[i] = int.Parse(Console.ReadLine());
             }
-            int middle = n / 2;
+            int middle = (Arr.Length/2)-1;
             int index = 0;
-            for (int i=0;i<n;i++)
+            while (true)
             {
                 if (x==Arr[middle])
                 {
@@ -37,7 +37,7 @@ namespace BinarySearch
                     middle = (middle / 2) + middle;
                 }
             }
-            Console.WriteLine(index);
+            Console.WriteLine(index+1);
 
         }
     }

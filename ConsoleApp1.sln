@@ -151,6 +151,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IndexOfLetters", "IndexOfLe
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReverseArray", "ReverseArray\ReverseArray.csproj", "{0C4805DC-2D8A-4B43-8343-6CEFA41FCAD6}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FindSumInArray", "FindSumInArray\FindSumInArray.csproj", "{40AA546E-33D1-4500-B6DB-93DD4F4045A4}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -453,6 +455,10 @@ Global
 		{0C4805DC-2D8A-4B43-8343-6CEFA41FCAD6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0C4805DC-2D8A-4B43-8343-6CEFA41FCAD6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0C4805DC-2D8A-4B43-8343-6CEFA41FCAD6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{40AA546E-33D1-4500-B6DB-93DD4F4045A4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{40AA546E-33D1-4500-B6DB-93DD4F4045A4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{40AA546E-33D1-4500-B6DB-93DD4F4045A4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{40AA546E-33D1-4500-B6DB-93DD4F4045A4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

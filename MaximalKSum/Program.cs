@@ -37,7 +37,7 @@ namespace MaximalKSum
                     }
                    
                 }
-                Console.WriteLine("            {0}", bigger);
+                
                 ArrN[fakeA] = -1000;
               
                 ArrK[i] = bigger;

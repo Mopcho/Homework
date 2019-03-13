@@ -159,6 +159,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FrequentNumber", "FrequentN
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OddOrEvenIsBigger", "OddOrEvenIsBigger\OddOrEvenIsBigger.csproj", "{80402072-4B27-4ECE-98E7-D6F28FB4E4D8}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Demo", "Demo\Demo.csproj", "{B773B052-0CE4-4A17-AB0F-EB3368543129}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TextInput", "TextInput\TextInput.csproj", "{81B8F5F5-69D0-4541-A8C1-0C4177957C16}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -477,6 +481,14 @@ Global
 		{80402072-4B27-4ECE-98E7-D6F28FB4E4D8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{80402072-4B27-4ECE-98E7-D6F28FB4E4D8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{80402072-4B27-4ECE-98E7-D6F28FB4E4D8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B773B052-0CE4-4A17-AB0F-EB3368543129}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B773B052-0CE4-4A17-AB0F-EB3368543129}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B773B052-0CE4-4A17-AB0F-EB3368543129}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B773B052-0CE4-4A17-AB0F-EB3368543129}.Release|Any CPU.Build.0 = Release|Any CPU
+		{81B8F5F5-69D0-4541-A8C1-0C4177957C16}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{81B8F5F5-69D0-4541-A8C1-0C4177957C16}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{81B8F5F5-69D0-4541-A8C1-0C4177957C16}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{81B8F5F5-69D0-4541-A8C1-0C4177957C16}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

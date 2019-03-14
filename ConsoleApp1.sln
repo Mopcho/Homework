@@ -163,6 +163,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Demo", "Demo\Demo.csproj", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TextInput", "TextInput\TextInput.csproj", "{81B8F5F5-69D0-4541-A8C1-0C4177957C16}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BinarySearchMethod", "BinarySearchMethod\BinarySearchMethod.csproj", "{AA6B35EE-C978-4601-A14A-2EC740591418}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -489,6 +491,10 @@ Global
 		{81B8F5F5-69D0-4541-A8C1-0C4177957C16}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{81B8F5F5-69D0-4541-A8C1-0C4177957C16}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{81B8F5F5-69D0-4541-A8C1-0C4177957C16}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AA6B35EE-C978-4601-A14A-2EC740591418}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AA6B35EE-C978-4601-A14A-2EC740591418}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AA6B35EE-C978-4601-A14A-2EC740591418}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AA6B35EE-C978-4601-A14A-2EC740591418}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

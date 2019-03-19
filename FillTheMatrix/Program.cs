@@ -65,6 +65,56 @@ namespace FillTheMatrix
                 }
 
             }
+            else if (letter=="c")
+            {
+                int counterRow = n-1;
+                int counterLine = n - 1;
+                int counter = 1;
+
+                int fakeN =1;
+                for (int i = 0; i < n; i++)
+                {
+                   
+                        for (int a = 0; a <fakeN; a++, counterLine++,counter++,counterRow++)
+                        {
+                            Arr[counterRow, counterLine] = c;
+                            c++;
+                       
+                        }
+                    fakeN++;
+                    counterRow = counterRow - counter;
+                }
+
+                for (int i = 0; i < n; i++)
+                {
+                    for (int a = 0; a < n; a++)
+                    {
+                        Console.Write("{0} ", Arr[i, a]);
+                    }
+                    Console.WriteLine();
+                }
+            }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        
         }
     }
 }

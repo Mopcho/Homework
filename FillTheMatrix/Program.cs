@@ -92,29 +92,9 @@ namespace FillTheMatrix
                         Console.Write("{0} ", Arr[i, a]);
                     }
                     Console.WriteLine();
-                }
+                                    }
             }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-        
         }
     }
 }

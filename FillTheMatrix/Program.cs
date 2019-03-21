@@ -68,23 +68,27 @@ namespace FillTheMatrix
             else if (letter=="c")
             {
                 int counterRow = n-1;
-                int counterLine = n - 1;
+                int counterLine = 0;
                 int counter = 1;
-
+                int number = 2;
+                
                 int fakeN =1;
-                for (int i = 0; i < n; i++)
-                {
+                  while (counter<4)
+                    {
+                    for (int i=0;i<counter;i++)
+                    {
+                        Arr[counterRow,counterLine]= number;
+                        number++;
+                    }
                    
-                        for (int a = 0; a <fakeN; a++, counterLine++,counter++,counterRow++)
-                        {
-                            Arr[counterRow, counterLine] = c;
-                            c++;
-                       
-                        }
-                    fakeN++;
-                    counterRow = counterRow - counter;
+                    counter++;
+                    }
+                  while (counter>=4)
+                {
+
                 }
 
+               
                 for (int i = 0; i < n; i++)
                 {
                     for (int a = 0; a < n; a++)
@@ -92,7 +96,7 @@ namespace FillTheMatrix
                         Console.Write("{0} ", Arr[i, a]);
                     }
                     Console.WriteLine();
-                                    }
+                }
             }
 
         }

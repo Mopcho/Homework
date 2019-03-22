@@ -63,32 +63,61 @@ namespace FillTheMatrix
                     }
                     Console.WriteLine();
                 }
-
             }
             else if (letter=="c")
             {
                 int counterRow = n-1;
                 int counterLine = 0;
                 int counter = 1;
-                int number = 2;
-                
-                int fakeN =1;
-                  while (counter<4)
+                int number = 1;
+                int invertCounter = 1;
+                int counter1 =1;
+                  while (counter<n)
                     {
-                    for (int i=0;i<counter;i++)
+                    for (int i=0;i<counter;i++,counter1++)
                     {
                         Arr[counterRow,counterLine]= number;
+                        counterLine++;
+                        counterRow++;
                         number++;
                     }
-                   
+                    counterRow = counterRow - counter1;
+                    counterLine = 0;
+                    counter1 = 1;
+
                     counter++;
                     }
-                  while (counter>=4)
+                int fakeCounter = 0;
+                int lineHolder = 1;
+                  while (fakeCounter<n)
                 {
+                    for (int i = 0; i <counter; i++,counter1++)
+                    {
+                        if (i==0)
+                        {  
+                            lineHolder = counterLine;
+                        }
+                        Arr[counterRow, counterLine] = number;
+                        counterLine++;
+                        counterRow++;
+                        number++;
+                    }
 
+                    counterRow = 0;
+                    if (counter==n)
+                    {
+                        counterLine = 1;
+                    }
+                   
+                    else
+                    {
+                        counterLine = lineHolder +1;
+                    }
+                    invertCounter--;
+                    counter1 = 1;
+                    counter--;
+                    fakeCounter++;
                 }
-
-               
                 for (int i = 0; i < n; i++)
                 {
                     for (int a = 0; a < n; a++)

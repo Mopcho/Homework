@@ -171,6 +171,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DateDifference", "SimpleCod
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SortByStringLength", "SortByStringLength\SortByStringLength.csproj", "{36B3E9FE-F048-44C2-ADD8-CB72F1BEBDD1}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SayHello", "SayHello\SayHello.csproj", "{9EF4EFF8-95AC-4C8D-BA77-B57D75B0CF7D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -513,6 +515,10 @@ Global
 		{36B3E9FE-F048-44C2-ADD8-CB72F1BEBDD1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{36B3E9FE-F048-44C2-ADD8-CB72F1BEBDD1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{36B3E9FE-F048-44C2-ADD8-CB72F1BEBDD1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9EF4EFF8-95AC-4C8D-BA77-B57D75B0CF7D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9EF4EFF8-95AC-4C8D-BA77-B57D75B0CF7D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9EF4EFF8-95AC-4C8D-BA77-B57D75B0CF7D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9EF4EFF8-95AC-4C8D-BA77-B57D75B0CF7D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

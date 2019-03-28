@@ -175,6 +175,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SayHello", "SayHello\SayHel
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GetLargestNumber", "GetLargestNumber\GetLargestNumber.csproj", "{CDBA912D-DD85-48A4-AC64-EEB128BB2313}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EnglishDigit", "EnglishDigit\EnglishDigit.csproj", "{FD20631E-1533-4E7E-87CE-EA3905359BB8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AppearanceCount", "AppearanceCount\AppearanceCount.csproj", "{94BA374D-5675-47AD-9E6A-7ECCF690C552}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -525,6 +529,14 @@ Global
 		{CDBA912D-DD85-48A4-AC64-EEB128BB2313}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CDBA912D-DD85-48A4-AC64-EEB128BB2313}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CDBA912D-DD85-48A4-AC64-EEB128BB2313}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FD20631E-1533-4E7E-87CE-EA3905359BB8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FD20631E-1533-4E7E-87CE-EA3905359BB8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FD20631E-1533-4E7E-87CE-EA3905359BB8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FD20631E-1533-4E7E-87CE-EA3905359BB8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{94BA374D-5675-47AD-9E6A-7ECCF690C552}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{94BA374D-5675-47AD-9E6A-7ECCF690C552}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{94BA374D-5675-47AD-9E6A-7ECCF690C552}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{94BA374D-5675-47AD-9E6A-7ECCF690C552}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

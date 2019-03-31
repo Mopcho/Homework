@@ -33,11 +33,12 @@ namespace LargerThanNeighbours
         {
             int n = int.Parse(Console.ReadLine());
             int[] Arr = new int[n];
-            CheckArr(Arr,n);
+           
             for (int i=0;i<n;i++)
             {
                 Arr[i] = int.Parse(Console.ReadLine());
             }
+            CheckArr(Arr, n);
         }
     }
 }

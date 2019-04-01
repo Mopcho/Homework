@@ -181,6 +181,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AppearanceCount", "Appearan
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LargerThanNeighbours", "LargerThanNeighbours\LargerThanNeighbours.csproj", "{72CCD2CE-3CEA-4D7C-8E30-6F2DF781DCE4}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FirstLargerThanNeighbours", "FirstLargerThanNeighbours\FirstLargerThanNeighbours.csproj", "{CC85191F-A076-4E61-B1C1-2F47E9594B9C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReverseNumber", "ReverseNumber\ReverseNumber.csproj", "{8BD58EEB-90DB-481C-B196-B4688689E1FF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -543,6 +547,14 @@ Global
 		{72CCD2CE-3CEA-4D7C-8E30-6F2DF781DCE4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{72CCD2CE-3CEA-4D7C-8E30-6F2DF781DCE4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{72CCD2CE-3CEA-4D7C-8E30-6F2DF781DCE4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CC85191F-A076-4E61-B1C1-2F47E9594B9C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CC85191F-A076-4E61-B1C1-2F47E9594B9C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CC85191F-A076-4E61-B1C1-2F47E9594B9C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CC85191F-A076-4E61-B1C1-2F47E9594B9C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8BD58EEB-90DB-481C-B196-B4688689E1FF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8BD58EEB-90DB-481C-B196-B4688689E1FF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8BD58EEB-90DB-481C-B196-B4688689E1FF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8BD58EEB-90DB-481C-B196-B4688689E1FF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

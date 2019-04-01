@@ -20,10 +20,11 @@ namespace LargerThanNeighbours
                     counter3++;
                 }
                
-                counter=counter+2;
-                if (counter>n)
+                counter=counter+1;
+                if (counter>n ||counter+1>n)
                 {
                     check = false;
+                    break;
                 }
 
             }

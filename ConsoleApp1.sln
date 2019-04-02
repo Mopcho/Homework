@@ -185,6 +185,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FirstLargerThanNeighbours",
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReverseNumber", "ReverseNumber\ReverseNumber.csproj", "{8BD58EEB-90DB-481C-B196-B4688689E1FF}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NumberAsArray", "NumberAsArray\NumberAsArray.csproj", "{3667A8C6-1F1B-4E5B-B58D-80171756AC3D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NFactorial", "SortingArray\NFactorial.csproj", "{89EFECC2-49F3-43CF-9437-41EF51AD1011}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -555,6 +559,14 @@ Global
 		{8BD58EEB-90DB-481C-B196-B4688689E1FF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8BD58EEB-90DB-481C-B196-B4688689E1FF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8BD58EEB-90DB-481C-B196-B4688689E1FF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3667A8C6-1F1B-4E5B-B58D-80171756AC3D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3667A8C6-1F1B-4E5B-B58D-80171756AC3D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3667A8C6-1F1B-4E5B-B58D-80171756AC3D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3667A8C6-1F1B-4E5B-B58D-80171756AC3D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{89EFECC2-49F3-43CF-9437-41EF51AD1011}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{89EFECC2-49F3-43CF-9437-41EF51AD1011}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{89EFECC2-49F3-43CF-9437-41EF51AD1011}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{89EFECC2-49F3-43CF-9437-41EF51AD1011}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -187,7 +187,11 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReverseNumber", "ReverseNum
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NumberAsArray", "NumberAsArray\NumberAsArray.csproj", "{3667A8C6-1F1B-4E5B-B58D-80171756AC3D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NFactorial", "SortingArray\NFactorial.csproj", "{89EFECC2-49F3-43CF-9437-41EF51AD1011}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SortingArray", "SortingArray\SortingArray.csproj", "{89EFECC2-49F3-43CF-9437-41EF51AD1011}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NFactorial", "NFactorial\NFactorial.csproj", "{0398AD09-47FE-4F1A-93FF-CA585DEFDB63}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IntegerCalculations", "IntegerCalculations\IntegerCalculations.csproj", "{DFA2E7F2-CB39-42BD-B0C5-CED586631B45}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -567,6 +571,14 @@ Global
 		{89EFECC2-49F3-43CF-9437-41EF51AD1011}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{89EFECC2-49F3-43CF-9437-41EF51AD1011}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{89EFECC2-49F3-43CF-9437-41EF51AD1011}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0398AD09-47FE-4F1A-93FF-CA585DEFDB63}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0398AD09-47FE-4F1A-93FF-CA585DEFDB63}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0398AD09-47FE-4F1A-93FF-CA585DEFDB63}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0398AD09-47FE-4F1A-93FF-CA585DEFDB63}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DFA2E7F2-CB39-42BD-B0C5-CED586631B45}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DFA2E7F2-CB39-42BD-B0C5-CED586631B45}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DFA2E7F2-CB39-42BD-B0C5-CED586631B45}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DFA2E7F2-CB39-42BD-B0C5-CED586631B45}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

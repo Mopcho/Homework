@@ -207,6 +207,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TriangleSurfaceByThreeSides
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TriangleSurfaceByTwoSidesAndAnAngle", "TriangleSurfaceByTwoSidesAndAnAngle\TriangleSurfaceByTwoSidesAndAnAngle.csproj", "{0EE9356F-1971-4F0F-B5B0-76993938E828}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SumIntegers", "SumIntegers\SumIntegers.csproj", "{3C6FD4FD-4D81-4584-891F-A645073A6CF4}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -621,6 +623,10 @@ Global
 		{0EE9356F-1971-4F0F-B5B0-76993938E828}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0EE9356F-1971-4F0F-B5B0-76993938E828}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0EE9356F-1971-4F0F-B5B0-76993938E828}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3C6FD4FD-4D81-4584-891F-A645073A6CF4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3C6FD4FD-4D81-4584-891F-A645073A6CF4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3C6FD4FD-4D81-4584-891F-A645073A6CF4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3C6FD4FD-4D81-4584-891F-A645073A6CF4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

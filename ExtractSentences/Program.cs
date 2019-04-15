@@ -12,57 +12,25 @@ namespace ExtractSentences
         {
             string input = Console.ReadLine();
             string word = Console.ReadLine();
-            int wordLeng = word.Length;
             string holder = "";
-            int checkpoint = 0;
-            int sentances = 0;
-          
-            for (int i=0;i<input.Length;i++)
+            string[] arr = input.Split('.');
+            for (int i=0;i<arr.Length;i++)
             {
-                if (input[i]=='.')
+                string current = arr[i];
+                string[] currentArr = current.Split(' ');
+                for (int j = 0; j < currentArr.Length; j++)
                 {
-                    sentances++;
+                    string currentWord = currentArr[j];
+                    if (currentWord == word)
+                    {
+                        holder += current + ".";
+                    }
                 }
+
             }
-            int[] Arr = new int[sentances];
-            int[] ArrPoints = new int[sentances];
-            int countChars = 0;
-            int u = 0;
-            string checker = "";
-            for (int i = 0; i < sentances; i++)
-            {
-                while (true)
-                {
-                    
-                    if (input[u]=='.')
-                    {
-                        ArrPoints[i] = u;
-                        break;
-                    }
-                    u++;
-                    countChars++;
-                }
-                Arr[i] = countChars;
-                countChars = 0;
-            }
-                for (int i=0;i<sentances;i++)
-                {
-                    for (int a=0;a<Arr[i];a++)
-                    {
-                        for (int c=0;c<word.Length;c++)
-                        {
-
-                        }
-                        if (checker==word)
-                        {
-
-                        }
-                    }
-                    for (int b=0;b<Arr[i];b++)
-                    {
-
-                    }
-                }
+            Console.WriteLine(holder);
+       
+         
         }
     }
 }

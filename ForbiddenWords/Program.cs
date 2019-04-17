@@ -12,27 +12,37 @@ namespace ForbiddenWords
         {
             string sentance = Console.ReadLine();
             string words = Console.ReadLine();
-            string[] arrWords = words.Split(' ');
-            string[] arrSentance = sentance.Split(' ');
+            string[] arrForbiddenWords = words.Split(' ');
+            string[] arrWords = sentance.Split(' ');
             string holder = "";
-            for (int i=0;i<arrSentance.Length;i++)
+            string stars = "";
+            int lever = 0;
+            for (int i=0;i<arrWords.Length;i++)
             {
-                for (int a = 0; a < arrWords.Length; a++) {
-                    if (arrSentance[i] ==arrWords[a])
+                for (int a = 0; a < arrForbiddenWords.Length; a++)
+                {
+                    if (arrWords[i] == arrForbiddenWords[a])
                     {
-                        for (int c = 0; c < arrSentance[i].Length; c++) {
-                            holder = holder +"*" ;
+                        for (int b = 0; b < arrForbiddenWords[a].Length; b++)
+                        {
+                            stars += "*";
                         }
-                        holder += " ";
+                        holder += " "+stars;
+                        stars = "";
+                        lever++;
                     }
-                    else
-                    {
-                        holder += " "+arrSentance[i];
-                    }
-                        }
+                }
+                if (lever==1)
+                {
+
+                }
+                else 
+                {
+                    holder +=" "+ arrWords[i];
+                }
+                lever = 0;
             }
             Console.WriteLine(holder);
-
         }
     }
 }

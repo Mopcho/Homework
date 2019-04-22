@@ -231,6 +231,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReverseSentance", "ReverseS
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DateDifferenceStrings", "DateDifferenceStrings\DateDifferenceStrings.csproj", "{54FB7B42-BAC3-45C4-8C03-B15D3301C41E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExtractEmails", "ExtractEmails\ExtractEmails.csproj", "{B1557AD4-3F88-4DF2-B133-9B3493550E3D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -693,6 +695,10 @@ Global
 		{54FB7B42-BAC3-45C4-8C03-B15D3301C41E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{54FB7B42-BAC3-45C4-8C03-B15D3301C41E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{54FB7B42-BAC3-45C4-8C03-B15D3301C41E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B1557AD4-3F88-4DF2-B133-9B3493550E3D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B1557AD4-3F88-4DF2-B133-9B3493550E3D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B1557AD4-3F88-4DF2-B133-9B3493550E3D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B1557AD4-3F88-4DF2-B133-9B3493550E3D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

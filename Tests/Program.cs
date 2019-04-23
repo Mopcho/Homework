@@ -6,20 +6,13 @@ using System.Threading.Tasks;
 
 namespace Tests
 {
-    class Cat
-    {
-
-       
-        
-    }
     class Program
     {
         static void Main(string[] args)
         {
-            Cat myCat = new Cat();
-           
-            
-
+            List<int> imetomu = new List<int>();
+            int[] imetomudve = imetomu.ToArray();
+          
         }
     }
 }

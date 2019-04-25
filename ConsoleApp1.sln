@@ -237,6 +237,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Palindromes", "Palindromes\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SeriesOfLetters", "SeriesOfLetters\SeriesOfLetters.csproj", "{60EDE9FC-E29B-4112-8FCF-A018457DEE4A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ParseTags", "ParseTags\ParseTags.csproj", "{7F3288F4-D8AC-4B0D-A0E1-4C1E5305F61C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -711,6 +713,10 @@ Global
 		{60EDE9FC-E29B-4112-8FCF-A018457DEE4A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{60EDE9FC-E29B-4112-8FCF-A018457DEE4A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{60EDE9FC-E29B-4112-8FCF-A018457DEE4A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7F3288F4-D8AC-4B0D-A0E1-4C1E5305F61C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7F3288F4-D8AC-4B0D-A0E1-4C1E5305F61C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7F3288F4-D8AC-4B0D-A0E1-4C1E5305F61C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7F3288F4-D8AC-4B0D-A0E1-4C1E5305F61C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

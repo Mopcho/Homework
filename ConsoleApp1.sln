@@ -245,6 +245,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Calculator", "Calculator\Ca
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LettersCount", "LettersCount\LettersCount.csproj", "{32BED41E-13DF-462B-B3ED-E12312B5AB25}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NumToString", "NumToString\NumToString.csproj", "{2FE527BC-DF47-42DF-91B8-4C6FF43F96F0}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -735,6 +737,10 @@ Global
 		{32BED41E-13DF-462B-B3ED-E12312B5AB25}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{32BED41E-13DF-462B-B3ED-E12312B5AB25}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{32BED41E-13DF-462B-B3ED-E12312B5AB25}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2FE527BC-DF47-42DF-91B8-4C6FF43F96F0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2FE527BC-DF47-42DF-91B8-4C6FF43F96F0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2FE527BC-DF47-42DF-91B8-4C6FF43F96F0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2FE527BC-DF47-42DF-91B8-4C6FF43F96F0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

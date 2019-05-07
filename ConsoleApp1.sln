@@ -255,6 +255,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EnterNumbers", "EnterNumber
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReadFileContents", "ReadFileContents\ReadFileContents.csproj", "{DA3BE650-51B4-412A-A81D-108586232578}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DownloadFile", "DownloadFile\DownloadFile.csproj", "{C3271D76-4F47-4E77-BE2A-8DB36170DFC3}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -765,6 +767,10 @@ Global
 		{DA3BE650-51B4-412A-A81D-108586232578}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DA3BE650-51B4-412A-A81D-108586232578}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DA3BE650-51B4-412A-A81D-108586232578}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C3271D76-4F47-4E77-BE2A-8DB36170DFC3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C3271D76-4F47-4E77-BE2A-8DB36170DFC3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C3271D76-4F47-4E77-BE2A-8DB36170DFC3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C3271D76-4F47-4E77-BE2A-8DB36170DFC3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

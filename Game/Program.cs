@@ -10,11 +10,7 @@ namespace Game
     {
         static void Main(string[] args)
         {
-            string nick;
-            int age;
-            int height;
-            int muscle;
-            int stamina;
+        
         }
     }
 }

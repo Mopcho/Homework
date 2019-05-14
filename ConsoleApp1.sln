@@ -285,6 +285,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CountWords", "CountWords\Co
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FileClassTest", "FileClassTest\FileClassTest.csproj", "{FE1E82B5-EAB3-4106-A07B-2B42D1CFCABC}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConcatenateTextFilesFile", "ConcatenateTextFilesFile\ConcatenateTextFilesFile.csproj", "{DF5755BB-F6B3-4097-9C2F-69D8BA8DC77D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -855,6 +857,10 @@ Global
 		{FE1E82B5-EAB3-4106-A07B-2B42D1CFCABC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FE1E82B5-EAB3-4106-A07B-2B42D1CFCABC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FE1E82B5-EAB3-4106-A07B-2B42D1CFCABC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DF5755BB-F6B3-4097-9C2F-69D8BA8DC77D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DF5755BB-F6B3-4097-9C2F-69D8BA8DC77D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DF5755BB-F6B3-4097-9C2F-69D8BA8DC77D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DF5755BB-F6B3-4097-9C2F-69D8BA8DC77D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

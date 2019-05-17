@@ -289,6 +289,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConcatenateTextFilesFile", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DictionaryTest", "DictionaryTest\DictionaryTest.csproj", "{495FB194-050F-4D84-AC5D-D3DFC1F26926}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FileAppend", "FileAppend\FileAppend.csproj", "{35E65D69-630C-4890-81BA-0F9043360542}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -867,6 +869,10 @@ Global
 		{495FB194-050F-4D84-AC5D-D3DFC1F26926}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{495FB194-050F-4D84-AC5D-D3DFC1F26926}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{495FB194-050F-4D84-AC5D-D3DFC1F26926}.Release|Any CPU.Build.0 = Release|Any CPU
+		{35E65D69-630C-4890-81BA-0F9043360542}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{35E65D69-630C-4890-81BA-0F9043360542}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{35E65D69-630C-4890-81BA-0F9043360542}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{35E65D69-630C-4890-81BA-0F9043360542}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -10,8 +10,7 @@ namespace Tests
     {
         static void Main(string[] args)
         {
-            List<int> imetomu = new List<int>();
-            int[] imetomudve = imetomu.ToArray();
+            
           
         }
     }

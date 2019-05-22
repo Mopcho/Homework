@@ -7,6 +7,10 @@ using System.Threading.Tasks;
 
 namespace URLParse
 {
+    class Site
+    {
+        public string Url { get; set; }
+    }
     class Program
     {
         static void Main(string[] args)
@@ -18,6 +22,14 @@ namespace URLParse
                 holder+=sr.ReadToEnd();
             }
             string[] urls = holder.Split('\n');
+            List<Site> sites = new List<Site>();
+            for (int i=0;i<urls.Length;i++)
+            {
+                Site mySite = new Site();
+                mySite.Url = urls[i];
+                sites.Add(mySite);
+            }
+          
         }
     }
 }

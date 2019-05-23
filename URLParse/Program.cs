@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text;
 using System.IO;
 using System.Threading.Tasks;
+using System.Net;
 
 namespace URLParse
 {
@@ -11,8 +12,26 @@ namespace URLParse
     {
         public string Url { get; set; }
     }
+  
     class Program
     {
+        public static string Request(string url)
+        {
+            WebRequest request = WebRequest.Create(url);
+
+            WebResponse resp = request.GetResponse();
+
+            string result = "";
+            using (Stream stream = resp.GetResponseStream())
+            {
+                using (StreamReader sr = new StreamReader(stream))
+                {
+                    result = sr.ReadToEnd();
+                }
+            }
+
+            return result;
+        }
         static void Main(string[] args)
         {
             string file = Console.ReadLine();
@@ -22,12 +41,10 @@ namespace URLParse
                 holder+=sr.ReadToEnd();
             }
             string[] urls = holder.Split('\n');
-            List<Site> sites = new List<Site>();
-            for (int i=0;i<urls.Length;i++)
+            string[] urlsHTML = new string[urls.Length]; 
+           for (int i=0;i<urls.Length;i++)
             {
-                Site mySite = new Site();
-                mySite.Url = urls[i];
-                sites.Add(mySite);
+                urlsHTML[i] = Request(urls[i]);
             }
           
         }

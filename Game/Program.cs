@@ -56,6 +56,10 @@ namespace Game
                 {
                     mutantSoldiers();
                 }
+                if (chancer>99)
+                {
+                    meteorAllert();
+                }
                
                 Thread.Sleep(5000);
             }

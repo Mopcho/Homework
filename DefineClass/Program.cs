@@ -8,7 +8,7 @@ namespace DefineClass
 {
     class Battery
     {
-
+        
     }
     class Display
     {
@@ -57,7 +57,9 @@ namespace DefineClass
     {
         static void Main(string[] args)
         {
-
+            GSM Number1 = new GSM();
+            GSM Number2 = new GSM();
+            GSM Number3 = new GSM();
         }
     }
 }

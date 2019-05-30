@@ -6,60 +6,57 @@ using System.Threading.Tasks;
 
 namespace DefineClass
 {
-    class Battery
+   public class Battery
     {
-        
+        public string Model { get; set; }
+        public string HoursIdle { get; set; }
+        public string Talk { get; set; }
+        public Battery (string model,string hoursIdle,string talk)
+        {
+            this.Model = model;
+            this.HoursIdle = hoursIdle;
+            this.Talk = talk;
+        }
     }
-    class Display
+    public class Display
     {
+        public string Size { get; set; }
+        public string Color { get; set; }
+        public Display (string size,string color) 
+            {
+            this.Size=size;
+            this.Color = color;
+            }
+    }
+    public class GSM
+    {
+        public string Model { get; set; }
+        public string Manufacturer { get; set; }
+        public decimal Price { get; set; }
+        public string Owner { get; set; }
+        public Battery Battery { get; set; }
+        public Display Display { get; set; }
 
-    }
-    class GSM
-    {
-        public string Model
+        public GSM(string model,string manufacturer,decimal price,string owner,Battery battery,Display display)
         {
-            get;
-            set;
+            this.Model = model;
+            this.Manufacturer = manufacturer;
+            this.Price = price;
+            this.Owner = owner;
+            this.Battery = battery;
+            this.Display = display;
+
         }
-        public string Manufacturer
-        {
-            get;
-            set;
-        }
-        public string Price
-        {
-            get;
-            set;
-        }
-        public string Owner
-        {
-            get;
-            set;
-        }
-        public Battery Battery
-        {
-            get;
-            set;
-        }
-        public string Characteristics
-        {
-            get;
-            set;
-        }
-        public  Display DisplayCharacteristics
-        {
-            get;
-            set;
-        }
-        
     }
     class Program
     {
         static void Main(string[] args)
         {
-            GSM Number1 = new GSM();
-            GSM Number2 = new GSM();
-            GSM Number3 = new GSM();
+            Battery battery1 = new Battery("asd", "asdasf", "fdsjfjsd");
+            Display display1 = new Display("10x10", "Niggerian");
+            GSM number1 = new GSM("samsung","galaxy",300,"Shefa",battery1,display1);
+            
+          
         }
     }
 }

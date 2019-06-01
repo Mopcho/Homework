@@ -28,6 +28,7 @@ namespace DefineClass
             this.Color = color;
             }
     }
+
     public class GSM
     {
         public string Model { get; set; }
@@ -37,7 +38,7 @@ namespace DefineClass
         public Battery Battery { get; set; }
         public Display Display { get; set; }
 
-        public GSM(string model,string manufacturer,decimal price,string owner,Battery battery,Display display)
+        public GSM(string model = null,string manufacturer=null,decimal price=0,string owner=null,Battery battery=null,Display display=null)
         {
             this.Model = model;
             this.Manufacturer = manufacturer;

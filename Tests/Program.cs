@@ -6,33 +6,32 @@ using System.Threading.Tasks;
 
 namespace Tests
 {
-    class Person
+    class Person 
     {
-        private int Age;
-        private string Name;
-        public int age { set { this.Age = value; } }
-        public string name { set { this.Name = value; } }
-    }
-    class Policeman
-    {
-        private int CardNumber;
-        private string Name;
-        public Policeman(int cardNumber,string name)
+        private const int Age=10;
+        public readonly string Name;
+        public string vtoroIme { get; set; }
+        public Person(int age, string name) :this("Pesho")
         {
-            this.CardNumber = cardNumber;
+            Console.WriteLine(this.Name);
             this.Name = name;
         }
-    
+        public Person(string name)
+        {
+            this.Name = name;
+        }
+
+
     }
+   
     class Program
     {
         static void Main(string[] args)
         {
-            Person numb1 = new Person();
-            numb1.age = 18;
-            numb1.name = "Mariika";
-            Policeman Police = new Policeman(18445,"Pesho");
-          
+            
+            
+         
+
         }
     }
 }

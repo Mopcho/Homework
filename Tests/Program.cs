@@ -6,20 +6,27 @@ using System.Threading.Tasks;
 
 namespace Tests
 {
-    class Person 
+    class Car
     {
-        private const int Age=10;
-        public readonly string Name;
-        public string vtoroIme { get; set; }
-        public Person(int age, string name) :this("Pesho")
+        public string Model { get; }
+        public string Acceleration { get; }
+        public int MaxSpeed { get; }
+        public string Color { get; }
+        public double KilometerPerHour { get; }
+        public Car(string model,string acceleration,int maxSpeed,string color,int kilometerPerHour)
         {
-            Console.WriteLine(this.Name);
-            this.Name = name;
+            this.Model = model;
+            this.Acceleration = acceleration;
+            this.MaxSpeed = maxSpeed;
+            this.Color = color;
+            this.KilometerPerHour = kilometerPerHour;
         }
-        public Person(string name)
+        public void Drive(double roadLength)
         {
-            this.Name = name;
+            double time = roadLength / this.KilometerPerHour;
+            Console.WriteLine("You will reach your destination in {0:f2} hours",time);
         }
+
 
 
     }
@@ -28,8 +35,8 @@ namespace Tests
     {
         static void Main(string[] args)
         {
-            
-            
+            Car car = new Car("BMW", "100km/5 sec", 350, "Black", 70);
+            car.Drive(100);
          
 
         }

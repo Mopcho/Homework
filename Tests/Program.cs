@@ -6,6 +6,12 @@ using System.Threading.Tasks;
 
 namespace Tests
 {
+    public enum BatteryType
+    {
+        LIon,
+        NiMH,
+        NiCd
+    }
     class Car
     {
         public string Model { get; }

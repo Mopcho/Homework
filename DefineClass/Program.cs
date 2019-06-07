@@ -5,14 +5,22 @@ using System.Text;
 using System.Threading.Tasks;
 
 namespace DefineClass
-{
+{  
+    public enum BatteryType
+    {
+        LIon,
+        NiMH,
+        NiCd
+}
    public class Battery
     {
+        public BatteryType BatteryType { get; set; }
         public string Model { get; set; }
         public string HoursIdle { get; set; }
         public string Talk { get; set; }
-        public Battery (string model,string hoursIdle,string talk)
+        public Battery (string model,string hoursIdle,string talk,BatteryType batteryType)
         {
+            this.BatteryType = batteryType;
             this.Model = model;
             this.HoursIdle = hoursIdle;
             this.Talk = talk;
@@ -53,7 +61,7 @@ namespace DefineClass
     {
         static void Main(string[] args)
         {
-            Battery battery1 = new Battery("asd", "asdasf", "fdsjfjsd");
+            Battery battery1 = new Battery("asdasasd","asdasdasd","asdasdas",BatteryType.LIon);
             Display display1 = new Display("10x10", "Niggerian");
             GSM number1 = new GSM("samsung","galaxy",300,"Shefa",battery1,display1);
             

@@ -14,6 +14,7 @@ namespace Tests
     }
     class Car
     {
+        private int Fuel { get; set; }
         public string Model { get; }
         public string Acceleration { get; }
         public int MaxSpeed { get; }
@@ -29,11 +30,24 @@ namespace Tests
         }
         public void Drive(double roadLength)
         {
-            double time = roadLength / this.KilometerPerHour;
-            Console.WriteLine("You will reach your destination in {0:f2} hours",time);
+            if (this.Fuel <= roadLength)
+            {
+                Console.WriteLine("You need more fuel !");
+            }
+            else
+            {
+                double time = roadLength / this.KilometerPerHour;
+                Console.WriteLine("You will reach your destination in {0:f2} hours", time);
+            }
         }
-
-
+        public void ReFuel(int filling)
+        {
+            this.Fuel = this.Fuel + filling;
+        }
+        public void DisplayFuel()
+        {
+            Console.WriteLine(this.Fuel);
+        }
 
     }
    

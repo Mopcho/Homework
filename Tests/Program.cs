@@ -6,12 +6,7 @@ using System.Threading.Tasks;
 
 namespace Tests
 {
-    public enum BatteryType
-    {
-        LIon,
-        NiMH,
-        NiCd
-    }
+   
     class Car
     {
         private int Fuel { get; set; }
@@ -20,6 +15,7 @@ namespace Tests
         public int MaxSpeed { get; }
         public string Color { get; }
         public double KilometerPerHour { get; }
+        private bool EngineOn { get; set; }
         public Car(string model,string acceleration,int maxSpeed,string color,int kilometerPerHour)
         {
             this.Model = model;
@@ -30,14 +26,24 @@ namespace Tests
         }
         public void Drive(double roadLength)
         {
-            if (this.Fuel <= roadLength)
+            if (EngineOn)
             {
-                Console.WriteLine("You need more fuel !");
+                if (this.Fuel <= roadLength)
+                {
+
+                    Console.WriteLine("You need more fuel !");
+                }
+                else
+                {
+
+                    double time = roadLength / this.KilometerPerHour;
+                    Console.WriteLine("You will reach your destination in {0:f2} hours", time);
+
+                }
             }
             else
             {
-                double time = roadLength / this.KilometerPerHour;
-                Console.WriteLine("You will reach your destination in {0:f2} hours", time);
+                Console.WriteLine("Turn on the engine dumbass");
             }
         }
         public void ReFuel(int filling)
@@ -48,17 +54,18 @@ namespace Tests
         {
             Console.WriteLine(this.Fuel);
         }
-
+        public void StartEngine()
+        {
+            Console.WriteLine("Brrrrrrrr");
+            this.EngineOn = true;
+        }
     }
-   
     class Program
     {
         static void Main(string[] args)
         {
             Car car = new Car("BMW", "100km/5 sec", 350, "Black", 70);
             car.Drive(100);
-         
-
         }
     }
 }

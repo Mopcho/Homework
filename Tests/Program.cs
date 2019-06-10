@@ -11,9 +11,9 @@ namespace Tests
     {
         private int Fuel { get; set; }
         public string Model { get; }
-        public string Acceleration { get; }
-        public int MaxSpeed { get; }
-        public string Color { get; }
+        private string Acceleration { get; }
+        private int MaxSpeed { get; set; }
+        private string Color { get; set; }
         public double KilometerPerHour { get; }
         private bool EngineOn { get; set; }
         public Car(string model,string acceleration,int maxSpeed,string color,int kilometerPerHour)
@@ -59,6 +59,20 @@ namespace Tests
             Console.WriteLine("Brrrrrrrr");
             this.EngineOn = true;
         }
+        public void StopEngine()
+        {
+            Console.WriteLine("Buuuuu");
+            this.EngineOn = false;
+        }
+        public void Honk()
+        {
+            Console.WriteLine("Beeeep");
+        }
+        public void DisplayStats()
+        {
+            Console.WriteLine("Model : {0} - Acceseleration : {1} - Max Speed : {2} - Color : {3} - Kilimeter Per Hour : {4}",Model,Acceleration,MaxSpeed,Color,KilometerPerHour);
+        }
+
     }
     class Program
     {

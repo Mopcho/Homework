@@ -16,13 +16,15 @@ namespace Tests
         private string Color { get; set; }
         public double KilometerPerHour { get; }
         private bool EngineOn { get; set; }
-        public Car(string model,string acceleration,int maxSpeed,string color,int kilometerPerHour)
+        public int DirtyLevel { get; set; } = 10;
+        public Car(string model,string acceleration,int maxSpeed,string color,int kilometerPerHour,int dirtyLevel)
         {
             this.Model = model;
             this.Acceleration = acceleration;
             this.MaxSpeed = maxSpeed;
             this.Color = color;
             this.KilometerPerHour = kilometerPerHour;
+            this.DirtyLevel = dirtyLevel;
         }
         public void Drive(double roadLength)
         {
@@ -72,6 +74,7 @@ namespace Tests
         {
             Console.WriteLine("Model : {0} - Acceseleration : {1} - Max Speed : {2} - Color : {3} - Kilimeter Per Hour : {4}",Model,Acceleration,MaxSpeed,Color,KilometerPerHour);
         }
+
 
     }
     class Program

@@ -6,6 +6,26 @@ using System.Threading.Tasks;
 
 namespace Test2
 {
+    class GenericList<T>
+    {
+        
+        private int counter=0;
+        public int Index { get; set; } = 0;
+        public GenericList(int scale)
+        {
+          T[] Data = new T[scale];
+        }
+        public void Add(T info)
+        {
+           this.Data[counter++] = info;
+        }
+        
+    }
+}
+    
+    
+
+    
     class Dog
     {
         public int Legs { get; set; }
@@ -26,22 +46,9 @@ namespace Test2
     {
         static void Main(string[] args)
         {
-            Dog dog = new Dog(10);
-            Cat cat = new Cat(5);
-            ChangeSmth(cat);
-            ChangeSmth1(dog);
-            Console.WriteLine("{0} {1}",cat.Legs,dog.Legs);
-            Dog sameDog = dog;
-            sameDog.Legs = 11;
-            Console.WriteLine(dog.Legs);
+            var GL = new GenericList();
+
         }
-        public static void ChangeSmth(Cat cat)
-        {
-            cat.Legs = 6;
-        }
-        public static void ChangeSmth1(Dog dog)
-        {
-            dog.Legs = 7;
-        }
+        
     }
 }

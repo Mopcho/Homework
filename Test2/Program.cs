@@ -8,45 +8,36 @@ namespace Test2
 {
     class GenericList<T>
     {
-        
-        private int counter=0;
-        public int Index { get; set; } = 0;
-        public GenericList(int scale)
+        public T[] Data { get; set; }
+        public int Index { get; set; } 
+        public int Limit { get; set; }
+        public GenericList(int index,int limit)
         {
-          T[] Data = new T[scale];
+           this.Data= new T[index];
+            this.Limit = limit;
         }
-        public void Add(T info)
+        public void Add(T data)
         {
-           this.Data[counter++] = info;
+            if(this.Index==Limit-1)
+            {
+                Limit = Limit * 2;
+
+            }
+            this.Data[this.Index++] = data;
         }
         
+
     }
-}
-    
+
     
 
     
-    class Dog
-    {
-        public int Legs { get; set; }
-        public Dog(int legs)
-        {
-            this.Legs = legs;
-        }
-    }
-    struct Cat
-    {
-        public int Legs { get; set; }
-        public Cat(int legs)
-        {
-            this.Legs = legs;
-        }
-    }
+
     class Program
     {
         static void Main(string[] args)
         {
-            var GL = new GenericList();
+            List<int> list = new List<int>();
 
         }
         

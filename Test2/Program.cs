@@ -6,38 +6,26 @@ using System.Threading.Tasks;
 
 namespace Test2
 {
-    class GenericList<T>
+   class Animal
     {
-        public T[] Data { get; set; }
-        public int Index { get; set; } 
-        public int Limit { get; set; }
-        public GenericList(int index,int limit)
-        {
-           this.Data= new T[index];
-            this.Limit = limit;
-        }
-        public void Add(T data)
-        {
-            if(this.Index==Limit-1)
-            {
-                Limit = Limit * 2;
-
-            }
-            this.Data[this.Index++] = data;
-        }
-        
+         public  int Age { get; set; }
+    }
+   class Dog : Animal
+    {
+      
 
     }
+    class GenericList<T> where T : Animal
+    {
+        public string Animal {get;set;}
 
-    
-
-    
-
+    }
     class Program
     {
         static void Main(string[] args)
         {
-            List<int> list = new List<int>();
+           
+            
 
         }
         

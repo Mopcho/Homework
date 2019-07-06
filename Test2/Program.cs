@@ -6,19 +6,19 @@ using System.Threading.Tasks;
 
 namespace Test2
 {
-   class Animal
+ public interface IAnimal
     {
-         public  int Age { get; set; }
-    }
-   class Dog : Animal
-    {
-      
+         int Age { get; set; }
+        string Name { get; set; }
+        string Type { get; set; }
 
+        
     }
-    class GenericList<T> where T : Animal
+    class Dog : IAnimal
     {
-        public string Animal {get;set;}
-
+        public int Age { get; set; }
+        public string Name { get; set; }
+        public string Type { get; set; }
     }
     class Program
     {

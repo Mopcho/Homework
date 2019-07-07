@@ -3,29 +3,20 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using Test2.Folder1;
+using Test2.Dogs;
 
 namespace Test2
 {
- public interface IAnimal
-    {
-         int Age { get; set; }
-        string Name { get; set; }
-        string Type { get; set; }
-
-        
-    }
-    class Dog : IAnimal
-    {
-        public int Age { get; set; }
-        public string Name { get; set; }
-        public string Type { get; set; }
-    }
+ 
+  
     class Program
     {
         static void Main(string[] args)
         {
-           
-            
+
+            Cat cat = new Cat();
+            Dog dog  = new Dog();
 
         }
         

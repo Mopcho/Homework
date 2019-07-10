@@ -8,5 +8,12 @@ namespace Test2.Dogs
 {
     public class Dog
     {
+        public int Age { get; set; }
+        public string Name { get; set; }
+        public Dog(int age,string name)
+        {
+            this.Age = age;
+            this.Name = name;
+        }
     }
 }

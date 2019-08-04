@@ -14,6 +14,7 @@ namespace Test2
     {
         static void Main(string[] args)
         {
+            int counterF = 0;
             Console.WriteLine("What animal do you want to buy?");
             string answer = Console.ReadLine();
             if (answer == "Cat")
@@ -29,10 +30,16 @@ namespace Test2
                 Console.Write("Name: ");
                 string name = Console.ReadLine();
                 Dog dog = new Dog(age, name);
-            }
-            while (true)
-            {
 
+                while (true)
+                {
+                    counterF++;
+                    if (counterF == 50)
+                    {
+                        dog.Food--;
+                        counterF = 0;
+                    }
+                }
             }
         }
         

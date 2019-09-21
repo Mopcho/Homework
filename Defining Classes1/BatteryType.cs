@@ -6,13 +6,8 @@ using System.Threading.Tasks;
 
 namespace Defining_Classes1
 {
-    class Program
+    public enum BatteryType
     {
-        static void Main(string[] args)
-        {
-          
-
-            
-        }
+        LiIon, NiMH, NiCd
     }
 }

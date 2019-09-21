@@ -6,13 +6,10 @@ using System.Threading.Tasks;
 
 namespace Defining_Classes1
 {
-    class Program
+   public class Call
     {
-        static void Main(string[] args)
-        {
-          
+        public DateTime Date { get; set; }
+        public DateTime Time { get; set; }
 
-            
-        }
     }
 }

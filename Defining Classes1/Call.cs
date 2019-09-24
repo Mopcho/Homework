@@ -9,7 +9,9 @@ namespace Defining_Classes1
    public class Call
     {
         public DateTime Date { get; set; }
-        public DateTime Time { get; set; }
+        public TimeSpan Time { get; set; }
+        public int DialedNumber { get; set; }
+        public int Duration { get; set; }
 
     }
 }

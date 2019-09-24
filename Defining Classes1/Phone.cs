@@ -14,6 +14,7 @@ namespace Defining_Classes1
         public string Owner { get { return _owner; } set { _owner = value; } }
         public Battery Battery { get { return _battery; } set { _battery = value; } }
         public Display Display { get { return _display; } set { _display = value; } }
+        public List<Call> CallHistory { get; set; }
         public static Phone IPhone4S { get { return _iPhone4S; } }
         private string _model;
         private string _manufacturer;
@@ -26,6 +27,7 @@ namespace Defining_Classes1
         {
             this.Model = model;
             this.Manufacturer = manufacturer;
+            this.CallHistory = new List<Call>();
 
         }
         public Phone(string model, string manufacturer, double price, string owner, Battery battery)
@@ -35,6 +37,29 @@ namespace Defining_Classes1
             this.Price = price;
             this.Owner = owner;
             this.Battery = battery;
+            this.CallHistory = new List<Call>();
+        }
+        public void CalculatePrice()
+        {
+            double sum = 0;
+            for (int i=0;i<CallHistory.Count;i++)
+            {
+                sum += ((CallHistory[i].Duration)/60)*0.37;
+            }
+            Console.WriteLine(sum);
+        }
+        public void AddCall(DateTime date,TimeSpan time,int dialedNumber,int Duration)
+        {
+            var call = new Call();
+            this.CallHistory.Add(call);
+        }
+        public void DeleteCall(int index)
+        {
+            this.CallHistory.RemoveAt(index);
+        }
+        public void ClearHistory()
+        {
+            this.CallHistory.Clear();
         }
         public string DisplayInfo()
         {

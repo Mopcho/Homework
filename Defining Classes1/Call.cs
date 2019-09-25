@@ -12,6 +12,13 @@ namespace Defining_Classes1
         public TimeSpan Time { get; set; }
         public int DialedNumber { get; set; }
         public int Duration { get; set; }
+        public Call(DateTime date,TimeSpan time,int dialedNumber,int duration)
+        {
+            this.Date = date;
+            this.Time = time;
+            this.DialedNumber = dialedNumber;
+            this.Duration = duration;
+        }
 
     }
 }

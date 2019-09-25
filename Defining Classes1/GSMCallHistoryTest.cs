@@ -15,8 +15,15 @@ namespace Defining_Classes1
             GSM.AddCall(DateTime.Now, TimeSpan.FromHours(2.00), 089321213, 1000);
             GSM.AddCall(DateTime.Now, TimeSpan.FromHours(3.00), 0893222213, 2000);
             GSM.CalculatePrice();
+
             List<Call> SortedList = GSM.CallHistory.OrderBy(o => o.Duration).ToList();
-            Console.WriteLine(SortedList[0]);
+      
+            SortedList.RemoveAt(0);
+            GSM.ClearHistory();
+            GSM.CallHistory = SortedList;
+            GSM.CalculatePrice();
+
+            
         }
        
     }

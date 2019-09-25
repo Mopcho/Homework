@@ -41,16 +41,18 @@ namespace Defining_Classes1
         }
         public void CalculatePrice()
         {
-            double sum = 0;
-            for (int i=0;i<CallHistory.Count;i++)
-            {
-                sum += ((CallHistory[i].Duration)/60)*0.37;
-            }
+            double sum=0;
+           
+             for (int i=0;i<CallHistory.Count;i++)
+             {
+               sum =sum+ ((CallHistory[i].Duration)/60)*2;
+             }
+           
             Console.WriteLine(sum);
         }
-        public void AddCall(DateTime date,TimeSpan time,int dialedNumber,int Duration)
+        public void AddCall(DateTime date,TimeSpan time,int dialedNumber,int duration)
         {
-            var call = new Call();
+            var call = new Call(date,time,dialedNumber,duration);
             this.CallHistory.Add(call);
         }
         public void DeleteCall(int index)

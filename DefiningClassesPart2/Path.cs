@@ -6,12 +6,13 @@ using System.Threading.Tasks;
 
 namespace DefiningClassesPart2
 {
-    class Program
+   public class Path
     {
-        static void Main(string[] args)
+        public List<Point3D> PointSeq { get; set; }
+        public void Add(Point3D point)
         {
-           
-           
+            Point3D newPoint = point;
+            PointSeq.Add(newPoint);
         }
     }
 }

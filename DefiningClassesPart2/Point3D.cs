@@ -13,7 +13,7 @@ namespace DefiningClassesPart2
         public int Z { get; set; }
         public static Point3D Center { get { return _center;  }  }
         private static readonly Point3D _center  = new Point3D(0, 0, 0);
-        public Point3D(int x,int y,int z)
+        public Point3D(int x,int y,int z)        
         {
             this.X = x;
             this.Y = y;

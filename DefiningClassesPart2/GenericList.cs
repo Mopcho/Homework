@@ -9,17 +9,27 @@ namespace DefiningClassesPart2
     public class GenericList<T>
     {
         private int _capacity;
-        private int _index;
+        private int _index = -1;
         public T[] List { get; set; }
         public GenericList(int capacity)
         {
+           
             this._capacity = capacity;
             this.List = new T[capacity];
         }
         public void Add(T element)
         {
-            this.List[this._index] = element;
             this._index++;
+            this.List[this._index] = element;
+            if(this._index==this._capacity)
+            {
+                T[] newList = new T[_capacity*2];
+                for (int i=0;i<_capacity;i++)
+                {
+                    newList[i] = this.List[i];
+                }
+                List = newList;
+            }
         }
         public void PrintElement(int index)
         {
@@ -59,6 +69,15 @@ namespace DefiningClassesPart2
                
             }
             return -1;
+        }
+        public override string ToString()
+        {
+            string genericList = "";
+            for (int i=0;i<this._index;i++)
+            {
+                genericList += this.List[i] + "r\n";
+            }
+            return genericList;
         }
 
     }

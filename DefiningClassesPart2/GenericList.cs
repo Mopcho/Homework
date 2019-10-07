@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace DefiningClassesPart2
 {
-    public class GenericList<T>
+    public class GenericList<T> 
     {
         private int _capacity;
         private int _index = -1;

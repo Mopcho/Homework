@@ -315,6 +315,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chatler", "Chatler\Chatler.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PhotoAlbumTarea", "PhotoAlbumTarea\PhotoAlbumTarea.csproj", "{B22985BC-4EA3-4940-BF88-C295C1BD2457}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Shapes", "Shapes\Shapes.csproj", "{21DD480C-F184-4E81-AE10-116EA1D51703}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -945,6 +947,10 @@ Global
 		{B22985BC-4EA3-4940-BF88-C295C1BD2457}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B22985BC-4EA3-4940-BF88-C295C1BD2457}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B22985BC-4EA3-4940-BF88-C295C1BD2457}.Release|Any CPU.Build.0 = Release|Any CPU
+		{21DD480C-F184-4E81-AE10-116EA1D51703}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{21DD480C-F184-4E81-AE10-116EA1D51703}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{21DD480C-F184-4E81-AE10-116EA1D51703}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{21DD480C-F184-4E81-AE10-116EA1D51703}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

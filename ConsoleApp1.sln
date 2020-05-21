@@ -317,6 +317,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PhotoAlbumTarea", "PhotoAlb
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Shapes", "Shapes\Shapes.csproj", "{21DD480C-F184-4E81-AE10-116EA1D51703}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OOP3HW", "OOP3HW\OOP3HW.csproj", "{6E16717D-8C93-4D86-BDF7-FD14DBEDC642}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -951,6 +953,10 @@ Global
 		{21DD480C-F184-4E81-AE10-116EA1D51703}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{21DD480C-F184-4E81-AE10-116EA1D51703}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{21DD480C-F184-4E81-AE10-116EA1D51703}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6E16717D-8C93-4D86-BDF7-FD14DBEDC642}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6E16717D-8C93-4D86-BDF7-FD14DBEDC642}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6E16717D-8C93-4D86-BDF7-FD14DBEDC642}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6E16717D-8C93-4D86-BDF7-FD14DBEDC642}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

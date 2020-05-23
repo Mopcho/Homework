@@ -24,15 +24,14 @@ namespace OOP3HW
                              .ThenBy(student => student.Name.Split(' ')[1]).Reverse().ToArray();
             return students;
         }
-        //bugged 2riq orderby overrideva purviq
+        
         public static Student[] OrderByNameLINQ(Student[] students)
         {
             var studentArr = from n in students
-                             orderby n.Name.Split(' ')[0]
-                             orderby n.Name.Split(' ')[1] 
+                             orderby n.Name.Split(' ')[0],
+                                     n.Name.Split(' ')[1] 
                              select n;
-                                  
-
+            
             return studentArr.ToArray();
         }
 

@@ -327,6 +327,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TimerEvent", "TimerEvent\Ti
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StudentGoups", "StudentGoups\StudentGoups.csproj", "{1A28DBFD-37F9-40B1-8FDC-FC534D0D829C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LongestString", "LongestString\LongestString.csproj", "{BE076F9F-C2EE-4375-A19B-9B87C93DE5A3}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -981,6 +983,10 @@ Global
 		{1A28DBFD-37F9-40B1-8FDC-FC534D0D829C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1A28DBFD-37F9-40B1-8FDC-FC534D0D829C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1A28DBFD-37F9-40B1-8FDC-FC534D0D829C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BE076F9F-C2EE-4375-A19B-9B87C93DE5A3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BE076F9F-C2EE-4375-A19B-9B87C93DE5A3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BE076F9F-C2EE-4375-A19B-9B87C93DE5A3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BE076F9F-C2EE-4375-A19B-9B87C93DE5A3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

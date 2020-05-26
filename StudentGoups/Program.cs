@@ -6,10 +6,10 @@ using System.Threading.Tasks;
 
 namespace StudentGoups
 {
-    public delegate IEnumerable<Student> Predicate(IEnumerable<Student> students);
+    public delegate Student[] Predicate(Student[] students);
     static class Program
     {
-        public static void PrintAll(IEnumerable<Student> students,Predicate predicate)
+        public static void PrintAll(Student[] students,Predicate predicate)
         {
             Console.WriteLine("=============");
             var sortedStudents = predicate(students);
@@ -18,36 +18,36 @@ namespace StudentGoups
                 Console.WriteLine(n.FirstName + "\r\n" + n.LastName + "\r\n" + n.FN + "\r\n" + n.Tel + "\r\n" + n.Email + "\r\n" + n.GroupNumber + "\r\n ==========");
             }
         }
-        public static void Print(IEnumerable<Student> students)
+        public static void Print(Student[] students)
         {
             foreach (var n in students)
             {
                 Console.WriteLine(n.FirstName + "\r\n" + n.LastName + "\r\n" + n.FN + "\r\n" + n.Tel + "\r\n" + n.Email + "\r\n" + n.GroupNumber + "\r\n ==========");
             }
         }
-        public static IOrderedEnumerable<Student> FromGroup(IEnumerable<Student> students)
+        public static Student[] FromGroup(Student[] students)
         {
             var studentsFromSecGrp = from student in students
                                      where student.GroupNumber == 2
                                      orderby student.FirstName
                                      select student;
-            return studentsFromSecGrp;
+            return studentsFromSecGrp.ToArray();
         }
 
-        public static IEnumerable<Student> WithAbv(IEnumerable<Student> students)
+        public static Student[] WithAbv(Student[] students)
         {
             var studentsWithAbv = from student in students
                                   where student.Email.Contains("abv.bg")
                                   select student;
-            return studentsWithAbv;
+            return studentsWithAbv.ToArray();
         }
 
-        public static IEnumerable<Student> SofiaNumber (IEnumerable<Student> students)
+        public static Student[] SofiaNumber (Student[] students)
         {
             var studentsWithSofiaPhone = from student in students
                                          where student.Tel.Contains("087")
                                          select student;
-            return studentsWithSofiaPhone;
+            return studentsWithSofiaPhone.ToArray();
         }
 
         static void Main()
@@ -61,11 +61,11 @@ namespace StudentGoups
                 new Student("Frau" , "Koicheva","Fakultet : 10","08912693","Nadejdata@abv.bg",new List<string>() {"M : 4","AE : 5","NE : 3"},1 )
             };
 
-             PrintAll(students, FromGroup);
+             PrintAll(students.ToArray(), FromGroup);
 
-             PrintAll(students, WithAbv);
+             PrintAll(students.ToArray(), WithAbv);
 
-             PrintAll(students,SofiaNumber);
+             PrintAll(students.ToArray(), SofiaNumber);
 
              Print(students.GroupStud(1));
 

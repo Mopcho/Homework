@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{F9DA68EA-8D2E-4DE5-A0AC-1AD91B0D23E9}</ProjectGuid>
+    <ProjectGuid>{54986220-3BF0-447D-8D80-3B783118DFF1}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>School</RootNamespace>
-    <AssemblyName>School</AssemblyName>
+    <RootNamespace>AnimalHierarchy</RootNamespace>
+    <AssemblyName>AnimalHierarchy</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,19 +43,16 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Classes\Classes.cs" />
-    <Compile Include="Classes\Disciplines.cs" />
-    <Compile Include="Interfaces\IClasses.cs" />
-    <Compile Include="Interfaces\IComment.cs" />
-    <Compile Include="Interfaces\IDiscipline.cs" />
-    <Compile Include="Interfaces\IPeople.cs" />
-    <Compile Include="Interfaces\IStudent.cs" />
-    <Compile Include="Classes\People.cs" />
-    <Compile Include="Interfaces\ITeacher.cs" />
+    <Compile Include="Classes\Animal.cs" />
+    <Compile Include="Classes\Cat.cs" />
+    <Compile Include="Classes\Dog.cs" />
+    <Compile Include="Classes\Frog.cs" />
+    <Compile Include="Classes\Kitten.cs" />
+    <Compile Include="Classes\Tomcat.cs" />
+    <Compile Include="Interfaces\IAnimal.cs" />
+    <Compile Include="Interfaces\ISound.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Classes\Student.cs" />
-    <Compile Include="Classes\Teacher.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

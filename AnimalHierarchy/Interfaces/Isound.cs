@@ -3,10 +3,11 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-
-namespace School
+using AnimalHierarchy.Classes;  
+namespace AnimalHierarchy.Interfaces
 {
-    public class Disciplines
+    public interface ISound
     {
+        void Sound();
     }
 }

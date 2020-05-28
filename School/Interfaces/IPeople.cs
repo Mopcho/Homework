@@ -4,10 +4,11 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace School
+namespace School.Interfaces
 {
-    public interface IStudent
+    interface IPeople
     {
-        int ClassNumber { get;  }
+        string Name { get; }
+
     }
 }

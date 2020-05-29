@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{54986220-3BF0-447D-8D80-3B783118DFF1}</ProjectGuid>
+    <ProjectGuid>{BA26F4A9-89C7-44F6-9C56-BE532981F48A}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>AnimalHierarchy</RootNamespace>
-    <AssemblyName>AnimalHierarchy</AssemblyName>
+    <RootNamespace>LiteratureSorter</RootNamespace>
+    <AssemblyName>LiteratureSorter</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,20 +43,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Classes\Animal.cs" />
-    <Compile Include="Classes\Cat.cs" />
-    <Compile Include="Classes\Dog.cs" />
-    <Compile Include="Classes\Frog.cs" />
-    <Compile Include="Classes\Kitten.cs" />
-    <Compile Include="Classes\Tomcat.cs" />
-    <Compile Include="Interfaces\IAnimal.cs" />
-    <Compile Include="Interfaces\ISound.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
-    <None Include="Diagram.cd" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

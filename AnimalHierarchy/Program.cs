@@ -5,6 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using AnimalHierarchy.Classes;
 using AnimalHierarchy.Interfaces;
+
 namespace AnimalHierarchy
 {
     class Program

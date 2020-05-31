@@ -337,6 +337,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AnimalHierarchy", "AnimalHi
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LiteratureSorter", "LiteratureSorter\LiteratureSorter.csproj", "{BA26F4A9-89C7-44F6-9C56-BE532981F48A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CallculateCahnceOfMark", "CallculateCahnceOfMark\CallculateCahnceOfMark.csproj", "{81603711-0879-491A-A278-1CA3647EDC48}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -1011,6 +1013,10 @@ Global
 		{BA26F4A9-89C7-44F6-9C56-BE532981F48A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BA26F4A9-89C7-44F6-9C56-BE532981F48A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BA26F4A9-89C7-44F6-9C56-BE532981F48A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{81603711-0879-491A-A278-1CA3647EDC48}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{81603711-0879-491A-A278-1CA3647EDC48}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{81603711-0879-491A-A278-1CA3647EDC48}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{81603711-0879-491A-A278-1CA3647EDC48}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

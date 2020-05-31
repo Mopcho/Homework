@@ -10,7 +10,9 @@ namespace AnimalHierarchy.Classes
    public class Animal : IAnimal, ISound
     {
         private int _age;
+
         private string _name;
+
         private string _sex;
 
         protected Animal(int age,string name,string sex)
@@ -43,6 +45,10 @@ namespace AnimalHierarchy.Classes
             }
             private set
             {
+                if (value.Length > 15)
+                {
+                    throw new Exception("There are no names with more than 15 symbols !");
+                }
                 this._name = value;
             }
         }
@@ -55,13 +61,21 @@ namespace AnimalHierarchy.Classes
             }
             private set
             {
-                this._sex = value;
+                if(value == "Male" || value == "Female")
+                {
+                    this._sex = value;
+                }
+                else
+                {
+                    throw new Exception("Sex can be either  'Male' or 'Female' ");
+                }
             }
         }
         public void Sound()
         {
             throw new Exception("Bruh be specific");
         }
+
         public static double AverageAge(IEnumerable<Animal> animals)
         {
             int[] animalAges = animals

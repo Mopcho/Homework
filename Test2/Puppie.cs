@@ -6,11 +6,13 @@ using System.Threading.Tasks;
 
 namespace Test2
 {
-    public class Dog
+    public class Puppie : Dog
     {
-        public virtual void PrintSmt()
+        public override void PrintSmt()
         {
-            Console.WriteLine("Base method is called");
+            Console.WriteLine("Child method is called");
+
+            base.PrintSmt();
         }
     }
 }

@@ -6,11 +6,9 @@ using System.Threading.Tasks;
 
 namespace Test2
 {
-    public class Dog
+    public abstract class Dog
     {
-        public virtual void PrintSmt()
-        {
-            Console.WriteLine("Base method is called");
-        }
+        public abstract void PrintSmt();
+        
     }
 }

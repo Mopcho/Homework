@@ -12,7 +12,7 @@ namespace Test2
         {
             Console.WriteLine("Child method is called");
 
-            base.PrintSmt();
+            
         }
     }
 }

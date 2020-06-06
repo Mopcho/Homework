@@ -6,11 +6,16 @@ using System.Threading.Tasks;
 
 namespace OOPPrinciples2
 {
-    public class Rectangle : Shape
+    public class Rectangle : Shape , IShape
     {
+        public Rectangle(double width,double height) : base(width,height)
+        {
+
+        }
+
         public override double CalculateSurface()
         {
-            return this.width * this.height;
+            return this.Width * this.Height;
         }
     }
 }

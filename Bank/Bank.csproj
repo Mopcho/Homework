@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{29C97422-EEC0-4E34-8FE2-EEE8C8A53907}</ProjectGuid>
+    <ProjectGuid>{15304F07-DBF7-4943-A5A2-D8EB0D63EB86}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>OOPPrinciples2</RootNamespace>
-    <AssemblyName>OOPPrinciples2</AssemblyName>
+    <RootNamespace>Bank</RootNamespace>
+    <AssemblyName>Bank</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,16 +43,19 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="IShape.cs" />
+    <Compile Include="BankAcc.cs" />
+    <Compile Include="CompanyCustomer.cs" />
+    <Compile Include="Customer.cs" />
+    <Compile Include="DepositAcc.cs" />
+    <Compile Include="IndividualCustomer.cs" />
+    <Compile Include="LoanAcc.cs" />
+    <Compile Include="MortageAcc.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Rectangle.cs" />
-    <Compile Include="Shape.cs" />
-    <Compile Include="Square.cs" />
-    <Compile Include="Triangle.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+    <None Include="ClassDiagram1.cd" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

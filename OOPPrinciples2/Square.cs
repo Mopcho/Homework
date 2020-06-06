@@ -6,17 +6,16 @@ using System.Threading.Tasks;
 
 namespace OOPPrinciples2
 {
-    public class Square : Shape
+    public class Square : Shape, IShape
     {
-        public Square(double size)
+        public Square(double size) : base(size,size)
         {
-            this.width = size;
-            this.height = size;
+            
         }
 
         public override double CalculateSurface()
         {
-            return height * width;
+            return Height * Width;
         }
     }
 }

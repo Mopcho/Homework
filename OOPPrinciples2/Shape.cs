@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace OOPPrinciples2
 {
-    public abstract class Shape
+    public abstract class Shape : IShape
     {
         private double width;
 
@@ -15,7 +15,7 @@ namespace OOPPrinciples2
         public Shape(double width, double height)
         {
             this.Width = width;
-            this.height = height;
+            this.Height = height;
         }
 
         public double Width {
@@ -23,7 +23,7 @@ namespace OOPPrinciples2
             {
                 return this.width;
             }
-            set
+            private set
             {
                 if (value < 0)
                 {
@@ -38,7 +38,7 @@ namespace OOPPrinciples2
             {
                 return this.height;
             }
-            set
+            private set
             {
                 if (value < 0)
                 {

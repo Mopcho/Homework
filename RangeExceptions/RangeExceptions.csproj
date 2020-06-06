@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{29C97422-EEC0-4E34-8FE2-EEE8C8A53907}</ProjectGuid>
+    <ProjectGuid>{20406629-F42E-4B60-9494-48E4ECD180B2}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>OOPPrinciples2</RootNamespace>
-    <AssemblyName>OOPPrinciples2</AssemblyName>
+    <RootNamespace>RangeExceptions</RootNamespace>
+    <AssemblyName>RangeExceptions</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,13 +43,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="IShape.cs" />
+    <Compile Include="InvalidRangeException.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Rectangle.cs" />
-    <Compile Include="Shape.cs" />
-    <Compile Include="Square.cs" />
-    <Compile Include="Triangle.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

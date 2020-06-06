@@ -6,11 +6,16 @@ using System.Threading.Tasks;
 
 namespace OOPPrinciples2
 {
-    public class Triangle : Shape
+    public class Triangle : Shape, IShape
     {
+        public Triangle(double width,double height) :base(width,height)
+        {
+
+        }
+
         public override double CalculateSurface()
         {
-            return this.height * this.width / 2;
+            return (this.Height * this.Width )/ 2;
         }
     }
 }
